@@ -1,0 +1,34 @@
+body {
+    font-family: 'Krona One', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 2;
+}
+
+.welcome-class {
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient( 115deg, rgba(184, 245, 187, 0.8), 
+    rgba(5, 94, 5, 0.7) ), 
+    url("/imagenes/motherboard.png");
+    /* font-weight: bolder; */
+    /* font-size: large; */
+    color: rgb(23, 23, 24);    
+}
+
+.project-class {
+    background-color: rgb(228, 236, 247);
+}
+.project-class p {
+    width: 100vw;
+    background-color: rgb(187, 187, 187);
+}
+
+.div {
+    width: 100vw;
+    height: 500px;
+}
